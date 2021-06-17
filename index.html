@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -15,22 +18,44 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre mim...</h1>
 
-    <p>
-        Olá, meu nome é Ellen, sou canceriana raiz, apaixonada por minha família e amigos. 
-    </p>
-    <p>
-        A arte é meu lugar de refúgio: dança, escrita, literatura, e música. <br>
-        Gosto de desafios, e encontrei na escalada esportiva o ambiente perfeito para sentir essa adrenalina.
-    </p>
+    <h1 class="center">Sobre mim...</h1>
 
-    <img src="assets/img/ellen2020.jpg" alt="Foto da criadora desse conteúdo">
+    <div class="container">
+        <div>
+            <img class="br-50 wh p-30" src="assets/img/ellenp2020.jpg" alt="Foto da criadora desse conteúdo">
+        </div>
+        <div class="p-30">
+            <p class="justify">
+                Olá, meu nome é Ellen, sou canceriana raiz, apaixonada por minha família e amigos. 
+            </p>
+            <p class="justify">
+                A arte é meu lugar de refúgio: dança, escrita, literatura, e música. <br>
+                Gosto de desafios, e encontrei na escalada esportiva o ambiente perfeito para sentir essa adrenalina.
+            </p>
+        </div>
+    </div>
 
-    <h2>Meu vídeo predileto:</h2>
+    <h2 class="center">Meu vídeo predileto:</h2>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/o8y3tPLAnzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container mb-50">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/o8y3tPLAnzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/ellen-p-pimentel/" target="_blank">
+                <img  class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do linkedin">
+            </a>
+            <a href="https://github.com/Ellen-code" target="_blank">
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do github">
+            </a>
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Ellen Prado &copy
+        </p>
+    </footer>
 
 </body>
 </html>
